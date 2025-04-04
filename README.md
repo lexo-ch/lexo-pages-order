@@ -1,1 +1,1 @@
-# lexo-pages-order
+# LEXO Pages Order
