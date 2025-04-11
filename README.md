@@ -46,12 +46,6 @@ Release tags are created with Semantic versioning in mind. Commit messages were 
 #### - `po/localize/admin-po.js`
 - Fires right before LEXO Pages Order admin script has been enqueued.
 
-#### - `po/before-conserving-pages`
-- Fires right before pages have been conserved.
-
-#### - `po/after-conserving-pages`
-- Fires right after pages have been conserved.
-
 ---
 ## Changelog
 Changelog can be seen on [latest release](https://github.com/lexo-ch/lexo-pages-order/releases/latest/).
