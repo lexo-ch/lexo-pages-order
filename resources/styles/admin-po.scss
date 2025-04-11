@@ -1,0 +1,26 @@
+/*
+ * Admin styles
+ */
+
+.sortable-item {
+    cursor: move;
+    padding: 10px;
+    background-color: #e7e7e7;
+    border: 1px solid #a3a3a3;
+}
+
+.sortable-item.excluded {
+    border: 2px solid red;
+}
+
+.save-info-box p {
+    text-decoration: underline;
+}
+
+.status-popup p {
+    font-style: italic;
+}
+
+.sortable-item a {
+    float: right;
+}
