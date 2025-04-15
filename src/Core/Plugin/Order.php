@@ -98,7 +98,12 @@ class Order
                     id="exclude-page"
                     name="custom_exclude"
                     data-page-id="<?php echo $post->ID; ?>"
-                    <?php echo get_post_meta($post->ID, 'custom_exclude', true) ? 'checked' : ''; ?>
+                    <?php if (self::isAnyParentExcluded($post)) { ?>
+                        disabled
+                        checked
+                    <?php } else {
+                        echo get_post_meta($post->ID, 'custom_exclude', true) ? 'checked' : '';
+                        } ?>
                 >
                 <label for="exclude-page"><?php echo __('Exclude page from menu', 'po'); ?></label>
             </div>
@@ -155,6 +160,19 @@ class Order
         
         foreach ($menu as $item) if (isset($item[2]) && $item[2] === $slug) return true;
         foreach ($submenu as $items) foreach ($items as $item) if (isset($item[2]) && $item[2] === $slug) return true;
+
+        return false;
+    }
+
+    public static function isAnyParentExcluded($post) : bool
+    {
+        $ancestors = get_post_ancestors($post->ID);
+
+        foreach ($ancestors as $ancestor) {
+            if (get_post_meta($ancestor, 'custom_exclude', true)) {
+                return true;
+            }
+        }
 
         return false;
     }
@@ -245,5 +263,25 @@ class Order
         }
 
         add_action('save_post', [$this, 'saveSubpageSettingsData']);
+    }
+
+    public static function printExcludedColumn() : void
+    {
+        if (self::isAnyParentExcluded(\get_post()) || \get_post_meta(\get_the_ID(), 'custom_exclude', true)) {
+            echo '<span style="color: red; font-size: 20px;">' . __('&#10006;', 'exclude-plugin') . '</span>';
+        } else {
+            echo '<span style="color: green; font-size: 20px; vertical-align: sub;">' . __('&#10004', 'exclude-plugin') . '</span>';
+        }
+    }
+
+    public static function addExcludedColumn( $columns ) : array
+    {
+        $customColumn = array(
+            'excluded' => __('Excluded from main menu', 'po')
+        );
+
+        $columns = array_merge( $columns, $customColumn );
+
+        return $columns;
     }
 }

@@ -28,6 +28,9 @@ class Bootloader extends Singleton
         add_action('save_post', [$order, 'saveSubpageSettingsData']);
         add_action('transition_post_status', [$order, 'setNewPageMenuOrder'], 10, 3);
         add_action('post_updated', [$order, 'updateMenuOrderOnParentChange'], 10, 3);
+        
+        add_action('manage_pages_custom_column', [$order, 'printExcludedColumn'], 10, 3);
+        add_filter('manage_pages_columns', [$order, 'addExcludedColumn']);
     }
 
     public function onInit()

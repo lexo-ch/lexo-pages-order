@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: LEXO Pages Order\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-04-15 06:54+0000\n"
+"POT-Creation-Date: 2025-04-15 06:53+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: \n"
@@ -21,6 +21,7 @@ msgid "Exclude page from menu"
 msgstr ""
 
 #: ../../../../../../../Documents/GitHub/lexo-pages-order/src/Core/Plugin/Order.php:281
+msgctxt "Vom Hauptmenü ausgeschlossen"
 msgid "Excluded from main menu"
 msgstr ""
 

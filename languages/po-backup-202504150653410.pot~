@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: LEXO Pages Order\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-04-15 06:54+0000\n"
+"POT-Creation-Date: 2025-04-11 12:52+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: \n"
@@ -16,19 +16,15 @@ msgstr ""
 "X-Loco-Version: 2.7.2; wp-6.7.2\n"
 "X-Domain: po"
 
-#: ../../../../../../../Documents/GitHub/lexo-pages-order/src/Core/Plugin/Order.php:109
+#: ../../../../../../../Documents/plugins/lexo-pages-order/src/Core/Plugin/Order.php:103
 msgid "Exclude page from menu"
 msgstr ""
 
-#: ../../../../../../../Documents/GitHub/lexo-pages-order/src/Core/Plugin/Order.php:281
-msgid "Excluded from main menu"
-msgstr ""
-
-#: ../../../../../../../Documents/GitHub/lexo-pages-order/src/Core/Plugin/Order.php:79
+#: ../../../../../../../Documents/plugins/lexo-pages-order/src/Core/Plugin/Order.php:78
 msgid "Go to page →"
 msgstr ""
 
-#: ../../../../../../../Documents/GitHub/lexo-pages-order/src/Core/Plugin/Order.php:44
+#: ../../../../../../../Documents/plugins/lexo-pages-order/src/Core/Plugin/Order.php:44
 msgid "here."
 msgstr ""
 
@@ -40,7 +36,7 @@ msgstr ""
 msgid "https://www.lexo.ch"
 msgstr ""
 
-#: ../../../../../../../Documents/GitHub/lexo-pages-order/src/Core/Plugin/Order.php:44
+#: ../../../../../../../Documents/plugins/lexo-pages-order/src/Core/Plugin/Order.php:44
 msgid ""
 "If you want to change the structure or order of subpages, you can do so "
 msgstr ""
@@ -53,20 +49,20 @@ msgstr ""
 msgid "LEXO Pages Order"
 msgstr ""
 
-#: ../../../../../../../Documents/GitHub/lexo-pages-order/src/Core/Plugin/Order.php:66
+#: ../../../../../../../Documents/plugins/lexo-pages-order/src/Core/Plugin/Order.php:65
 msgid "No subpages found for this page."
 msgstr ""
 
-#: ../../../../../../../Documents/GitHub/lexo-pages-order/src/Core/Plugin/PluginService.php:109
+#: ../../../../../../../Documents/plugins/lexo-pages-order/src/Core/Plugin/PluginService.php:109
 #, php-format
 msgid "Plugin %s is up to date."
 msgstr ""
 
-#: ../../../../../../../Documents/GitHub/lexo-pages-order/src/Core/Plugin/PluginService.php:100
+#: ../../../../../../../Documents/plugins/lexo-pages-order/src/Core/Plugin/PluginService.php:100
 msgid "Security check failed."
 msgstr ""
 
-#: ../../../../../../../Documents/GitHub/lexo-pages-order/src/Core/Plugin/Order.php:43
+#: ../../../../../../../Documents/plugins/lexo-pages-order/src/Core/Plugin/Order.php:43
 msgid "Subpage settings are disabled for this page."
 msgstr ""
 
@@ -74,6 +70,6 @@ msgstr ""
 msgid "Subpages menu order."
 msgstr ""
 
-#: ../../../../../../../Documents/GitHub/lexo-pages-order/src/Core/Plugin/PluginService.php:75
+#: ../../../../../../../Documents/plugins/lexo-pages-order/src/Core/Plugin/PluginService.php:75
 msgid "Update check"
 msgstr ""
