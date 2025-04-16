@@ -23,7 +23,9 @@
                 "assets": [
                     "CHANGELOG.md",
                     "composer.json",
-                    "app-info.json"
+                    "lexo-pages-order.php",
+                    "readme.txt",
+                    "info.json"
                 ],
                 "message": "chore(release): ${nextRelease.version} [skip ci]\n\n${nextRelease.notes}"
             }
