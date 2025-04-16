@@ -53,4 +53,4 @@ Release tags are created with Semantic versioning in mind. Commit messages were 
 
 ---
 ## Changelog
-Changelog can be seen on [latest release](https://github.com/lexo-ch/lexo-pages-order/releases/latest/).
+Changelog can be seen here [latest release](https://github.com/lexo-ch/lexo-pages-order/releases/latest/).
