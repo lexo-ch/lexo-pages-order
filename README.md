@@ -21,22 +21,27 @@ Release tags are created with Semantic versioning in mind. Commit messages were 
 #### - `po/admin_localized_script`
 *Parameters*
 `apply_filters('po/admin_localized_script', $args);`
-- $args (array) The array which will be used for localizing `cpAdminLocalized` variable in the admin.
+- $args (array) The array which will be used for localizing `poAdminLocalized` variable in the admin.
 
 #### - `po/enqueue/admin-po.js`
 *Parameters*
 `apply_filters('po/enqueue/admin-po.js', $args);`
-- $args (bool) Printing of the file `admin-po.js` (script id is `po/admin-po.js-js`). It also affects printing of the localized `cpAdminLocalized` variable.
+- $args (bool) Printing of the file `admin-po.js` (script id is `po/admin-po.js-js`). It also affects printing of the localized `poAdminLocalized` variable.
 
 #### - `po/enqueue/admin-po.css`
 *Parameters*
 `apply_filters('po/enqueue/admin-po.css', $args);`
 - $args (bool) Printing of the file `admin-po.css` (stylesheet id is `po/admin-po.css-css`).
 
-#### - `po/exclude-pages`
+#### - `po//message/column_excluded`
 *Parameters*
-`apply_filters('po/exclude-pages', $args);`
-- $args (array) The array of IDs of the pages on which checkbox will be hidden. Additionally pages with those IDs and their descendant pages will be excluded from conserving.
+`apply_filters('po//message/column_excluded', $args);`
+- $args (string) Content of the message in the pages list on dashboard when page is excluded.
+
+#### - `po//message/column_not_excluded`
+*Parameters*
+`apply_filters('po//message/column_not_excluded', $args);`
+- $args (string) Content of the message in the pages list on dashboard when page is not excluded.
 
 ---
 ## Actions
