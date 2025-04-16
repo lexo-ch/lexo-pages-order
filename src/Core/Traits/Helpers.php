@@ -16,7 +16,7 @@ trait Helpers
         $this->notices = new Notices();
     }
 
-    public static function getClassName($classname)
+    public static function getClassName(string $classname): string
     {
         if ($name = strrpos($classname, '\\')) {
             return substr($classname, $name + 1);
@@ -25,7 +25,7 @@ trait Helpers
         return $name;
     }
 
-    public static function setStatus404()
+    public static function setStatus404(): void
     {
         global $wp_query;
         $wp_query->set_404();

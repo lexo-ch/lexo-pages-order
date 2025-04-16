@@ -34,7 +34,7 @@ class PluginService extends Singleton
         self::$namespace = $namespace;
     }
 
-    public function registerNamespace()
+    public function registerNamespace(): void
     {
         $config = require_once trailingslashit(ASSETS) . 'config/config.php';
 
@@ -45,7 +45,7 @@ class PluginService extends Singleton
         add_action('admin_post_' . self::CHECK_UPDATE, [$this, 'checkForUpdateManually']);
     }
 
-    public function addAdminLocalizedScripts()
+    public function addAdminLocalizedScripts(): void
     {
         $vars = [
             'plugin_name'       => PLUGIN_NAME,
@@ -61,7 +61,7 @@ class PluginService extends Singleton
         wp_localize_script(trailingslashit(self::$namespace) . 'admin-' . DOMAIN . '.js', DOMAIN . 'AdminLocalized', $vars);
     }
 
-    public function addPluginLinks()
+    public function addPluginLinks(): void
     {
         add_filter(
             'plugin_action_links_' . BASENAME,
@@ -69,7 +69,7 @@ class PluginService extends Singleton
         );
     }
 
-    public function setPluginLinks($links)
+    public function setPluginLinks(array $links): array
     {
         $update_check_url = self::getManualUpdateCheckLink();
         $update_check_link = "<a href='{$update_check_url}'>" . __('Update check', 'po') . '</a>';
@@ -82,7 +82,7 @@ class PluginService extends Singleton
         return $links;
     }
 
-    public function updater()
+    public function updater(): PluginUpdater
     {
         return (new PluginUpdater())
             ->setBasename(BASENAME)
@@ -94,7 +94,7 @@ class PluginService extends Singleton
             ->setCache(true);
     }
 
-    public function checkForUpdateManually()
+    public function checkForUpdateManually(): void
     {
         if (!wp_verify_nonce($_REQUEST['nonce'], self::CHECK_UPDATE)) {
             wp_die(__('Security check failed.', 'po'));
