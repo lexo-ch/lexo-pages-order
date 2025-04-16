@@ -1,5 +1,5 @@
 # LEXO Pages Order
-Groups marked pages and their descendants.
+Order the subpages.
 
 ---
 ## Versioning

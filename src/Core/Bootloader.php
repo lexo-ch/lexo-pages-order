@@ -22,11 +22,11 @@ class Bootloader extends Singleton
         $order = new Order();
 
         add_action('init', [$this, 'onInit'], 10);
-        add_action(DOMAIN . '/localize/admin-po.js', [$this, 'onAdminCpJsLoad']);
+        add_action(DOMAIN . '/localize/admin-po.js', [$this, 'onAdminPoJsLoad']);
         add_action('after_setup_theme', [$this, 'onAfterSetupTheme']);
 
         add_action('save_post', [$order, 'saveSubpageSettingsData']);
-        add_action('transition_post_status', [$order, 'setNewPageMenuOrder'], 10, 3);
+        add_action('transition_post_status', [$order, 'setMenuOrderForNewPage'], 10, 3);
         add_action('post_updated', [$order, 'updateMenuOrderOnParentChange'], 10, 3);
         
         add_action('manage_pages_custom_column', [$order, 'printExcludedColumn'], 10, 3);
@@ -47,7 +47,7 @@ class Bootloader extends Singleton
         (new Notices())->run();
     }
 
-    public function onAdminCpJsLoad()
+    public function onAdminPoJsLoad()
     {
         PluginService::getInstance()->addAdminLocalizedScripts();
     }

@@ -10,7 +10,7 @@
     "tested": "6.8",
     "requires_php": "7.4.1",
     "sections": {
-        "description": "Groups marked pages.<br><a href='https://github.com/lexo-ch/lexo-pages-order/' target='_blank'>More about plugin</a>",
+        "description": "Orders subpages.<br><a href='https://github.com/lexo-ch/lexo-pages-order/' target='_blank'>More about plugin</a>",
         "changelog": "Click <a href='https://github.com/lexo-ch/lexo-pages-order/releases/latest/' target='_blank'>here</a> to see changelog."
     },
     "banners": {
