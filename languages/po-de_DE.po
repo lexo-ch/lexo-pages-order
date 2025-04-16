@@ -1,0 +1,120 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: LEXO Pages Order\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-04-11 12:36+0000\n"
+"PO-Revision-Date: 2025-04-16 08:39+0000\n"
+"Last-Translator: \n"
+"Language-Team: German\n"
+"Language: de_DE\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.7.2; wp-6.7.2\n"
+"X-Domain: po"
+
+#: ../../../../../../../Documents/GitHub/lexo-pages-order/src/Core/Plugin/Order.php:104
+msgid ""
+"Change the order of the subpages by clicking and dragging the respective "
+"page to the desired location."
+msgstr ""
+"Ändern Sie die Reihenfolge der Unterseiten durch klicken + ziehen der "
+"jeweiligen Seite an den gewünschten Ort."
+
+#: ../../../../../../../Documents/GitHub/lexo-pages-order/src/Core/Plugin/Order.php:134
+msgid "Exclude page from menu<br><small>(and all it's subpages)</small>"
+msgstr ""
+"Seite vom Menü ausschliessen<br><small>(und alle ihre Unterseiten)</small>"
+
+#: ../../../../../../../Documents/GitHub/lexo-pages-order/src/Core/Plugin/Order.php:312
+msgid "Excluded from main menu"
+msgstr "Vom Hauptmenu ausgeschlossen"
+
+#: ../../../../../../../Documents/GitHub/lexo-pages-order/src/Core/Plugin/Order.php:49
+#| msgid "here."
+msgid "here"
+msgstr "hier"
+
+#. URI of the plugin
+msgid "https://github.com/lexo-ch/lexo-pages-order/"
+msgstr "https://github.com/lexo-ch/lexo-pages-order/"
+
+#. Author URI of the plugin
+msgid "https://www.lexo.ch"
+msgstr "https://www.lexo.ch"
+
+#: ../../../../../../../Documents/GitHub/lexo-pages-order/src/Core/Plugin/Order.php:48
+#, php-format
+#| msgid ""
+#| "If you want to change the order of the pages in the main menu, you can do "
+#| "so "
+msgid ""
+"If you want to change the order of the pages in the main menu, you can do so "
+"%s."
+msgstr ""
+"Wenn Sie die Reihenfolge der Seiten im Hauptmenü ändern möchten, können Sie "
+"dies %s tun."
+
+#. Author of the plugin
+msgid "LEXO GmbH"
+msgstr "LEXO GmbH"
+
+#. Name of the plugin
+msgid "LEXO Pages Order"
+msgstr "LEXO Seitenmanagement"
+
+#: ../../../../../../../Documents/GitHub/lexo-pages-order/src/Core/Plugin/Order.php:64
+msgid "No subpages found for this page."
+msgstr "Keine Unterseiten für diese Seite gefunden."
+
+#: ../../../../../../../Documents/GitHub/lexo-pages-order/src/Core/Plugin/PluginService.php:109
+#, php-format
+msgid "Plugin %s is up to date."
+msgstr "Das Plugin %s ist auf dem neuesten Stand."
+
+#: ../../../../../../../Documents/GitHub/lexo-pages-order/src/Core/Plugin/PluginService.php:100
+msgid "Security check failed."
+msgstr "Sicherheitsüberprüfung fehlgeschlagen."
+
+#: ../../../../../../../Documents/GitHub/lexo-pages-order/src/Core/Plugin/Order.php:22
+msgid "Subpage Settings"
+msgstr "Unterseiteneinstellungen"
+
+#: ../../../../../../../Documents/GitHub/lexo-pages-order/src/Core/Plugin/Order.php:45
+#| msgid ""
+#| "Subpage settings are disabled for this page because its a part of the "
+#| "main menu."
+msgid ""
+"Subpage settings are disabled for this page because its subpages are the "
+"part of the main menu."
+msgstr ""
+"Die Unterseiteneinstellungen sind für diese Seite deaktiviert, da ihre "
+"Unterseiten Teil des Hauptmenüs sind."
+
+#. Description of the plugin
+msgid "Subpages menu order."
+msgstr "Reihenfolge der Unterseiten im Menü."
+
+#: ../../../../../../../Documents/GitHub/lexo-pages-order/src/Core/Plugin/Order.php:86
+#: ../../../../../../../Documents/GitHub/lexo-pages-order/src/Core/Plugin/Order.php:120
+#, php-format
+#| msgid ""
+#| "This page and all it's subpages are excluded from the main menu because "
+#| "one of its parents is excluded."
+msgid ""
+"This page and all it's subpages are excluded from the main menu because its "
+"parent page %s is excluded."
+msgstr ""
+"Diese Seite und alle ihre Unterseiten sind vom Hauptmenü ausgeschlossen, da "
+"die übergeordnete Seite %s ausgeschlossen ist."
+
+#: ../../../../../../../Documents/GitHub/lexo-pages-order/src/Core/Plugin/Order.php:83
+msgid "This page and all it's subpages are excluded from the main menu."
+msgstr ""
+"Diese Seite und alle ihre Unterseiten sind vom Hauptmenü ausgeschlossen."
+
+#: ../../../../../../../Documents/GitHub/lexo-pages-order/src/Core/Plugin/PluginService.php:75
+msgid "Update check"
+msgstr "Update Check"

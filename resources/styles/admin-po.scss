@@ -1,0 +1,84 @@
+/*
+ * Admin styles
+ */
+
+#po-sortable-subpages {
+  margin-bottom: 0;
+
+  .po-sortable-item {
+      cursor: move;
+      padding: 10px;
+      background-color: #f0f0f0;
+      border: 1px solid #c7c7c7;
+      display: flex;
+
+    &:hover {
+      box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.3);
+      opacity: 0.8;
+    }
+
+    &.excluded {
+      border: 1px solid #ff9f9f;
+      background-color: rgba(255, 0, 0, 0.1);
+    }
+
+    .page-title {
+      flex: 1;
+    }
+
+    .controls {
+      .po-sortable-url {
+        background-color: silver;
+        text-decoration: none;
+        width: 17px;
+        aspect-ratio: 1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50%;
+        color: white;
+
+        &:hover {
+          background-color: #2271b1;
+        }
+      }
+    }
+  }
+}
+
+#po-exclusion-box {
+  border-top: 1px solid #e2e2e2;
+  margin-top: 12px;
+  padding-top: 10px;
+
+  label {
+    cursor: pointer;
+  }
+}
+
+body:is(.post-type-page) {
+  .menu-order-label-wrapper,
+  #menu_order {
+    display: none !important;
+  }
+}
+
+.excluded-page {
+  font-size: 20px;
+
+  &.true {
+    color: red;
+
+    &:before {
+      content: '\2716';
+    }
+  }
+
+  &.false {
+    color: green;
+
+    &:before {
+      content: '\2714';
+    }
+  }
+}
