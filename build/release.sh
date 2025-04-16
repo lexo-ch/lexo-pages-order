@@ -26,16 +26,15 @@ sudo composer dump-autoload -oa
 
 mkdir lexo-pages-order
 
-po -r assets lexo-pages-order
-po -r languages lexo-pages-order
-po -r dist lexo-pages-order
-po -r src lexo-pages-order
-po -r vendor lexo-pages-order
-
-po ./*.php lexo-pages-order
-po LICENSE lexo-pages-order
-po readme.txt lexo-pages-order
-po README.md lexo-pages-order
-po CHANGELOG.md lexo-pages-order
+cp -r assets lexo-pages-order
+cp -r languages lexo-pages-order
+cp -r dist lexo-pages-order
+cp -r src lexo-pages-order
+cp -r vendor lexo-pages-order
+cp ./*.php lexo-pages-order
+cp LICENSE lexo-pages-order
+cp readme.txt lexo-pages-order
+cp README.md lexo-pages-order
+cp CHANGELOG.md lexo-pages-order
 
 zip -r ./build/lexo-pages-order-$NEXT_VERSION.zip lexo-pages-order -q
