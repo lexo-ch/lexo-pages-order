@@ -1,3 +1,10 @@
+## [1.0.3](https://github.com/lexo-ch/lexo-pages-order/compare/v1.0.2...v1.0.3) (2025-04-16)
+
+
+### Bug Fixes
+
+* **docs:** Test GitHub webhook ([0d97173](https://github.com/lexo-ch/lexo-pages-order/commit/0d9717313ebcae7c1f5627ef263ee9fe10abf43f))
+
 ## [1.0.2](https://github.com/lexo-ch/lexo-pages-order/compare/v1.0.1...v1.0.2) (2025-04-16)
 
 
