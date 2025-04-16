@@ -1,3 +1,10 @@
+## [1.0.5](https://github.com/lexo-ch/lexo-pages-order/compare/v1.0.4...v1.0.5) (2025-04-16)
+
+
+### Bug Fixes
+
+* **core:** Fix release ([e9283ef](https://github.com/lexo-ch/lexo-pages-order/commit/e9283ef5ae48f0a132cc4e93d1960a29c07981f6))
+
 ## [1.0.4](https://github.com/lexo-ch/lexo-pages-order/compare/v1.0.3...v1.0.4) (2025-04-16)
 
 
