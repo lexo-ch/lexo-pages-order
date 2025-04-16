@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: LEXO Pages Order\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-04-15 06:54+0000\n"
+"POT-Creation-Date: 2025-04-16 08:37+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: \n"
@@ -16,20 +16,22 @@ msgstr ""
 "X-Loco-Version: 2.7.2; wp-6.7.2\n"
 "X-Domain: po"
 
-#: ../../../../../../../Documents/GitHub/lexo-pages-order/src/Core/Plugin/Order.php:109
-msgid "Exclude page from menu"
+#: ../../../../../../../Documents/GitHub/lexo-pages-order/src/Core/Plugin/Order.php:104
+msgid ""
+"Change the order of the subpages by clicking and dragging the respective "
+"page to the desired location."
 msgstr ""
 
-#: ../../../../../../../Documents/GitHub/lexo-pages-order/src/Core/Plugin/Order.php:281
+#: ../../../../../../../Documents/GitHub/lexo-pages-order/src/Core/Plugin/Order.php:134
+msgid "Exclude page from menu<br><small>(and all it's subpages)</small>"
+msgstr ""
+
+#: ../../../../../../../Documents/GitHub/lexo-pages-order/src/Core/Plugin/Order.php:312
 msgid "Excluded from main menu"
 msgstr ""
 
-#: ../../../../../../../Documents/GitHub/lexo-pages-order/src/Core/Plugin/Order.php:79
-msgid "Go to page →"
-msgstr ""
-
-#: ../../../../../../../Documents/GitHub/lexo-pages-order/src/Core/Plugin/Order.php:44
-msgid "here."
+#: ../../../../../../../Documents/GitHub/lexo-pages-order/src/Core/Plugin/Order.php:49
+msgid "here"
 msgstr ""
 
 #. URI of the plugin
@@ -40,9 +42,11 @@ msgstr ""
 msgid "https://www.lexo.ch"
 msgstr ""
 
-#: ../../../../../../../Documents/GitHub/lexo-pages-order/src/Core/Plugin/Order.php:44
+#: ../../../../../../../Documents/GitHub/lexo-pages-order/src/Core/Plugin/Order.php:48
+#, php-format
 msgid ""
-"If you want to change the structure or order of subpages, you can do so "
+"If you want to change the order of the pages in the main menu, you can do so "
+"%s."
 msgstr ""
 
 #. Author of the plugin
@@ -53,7 +57,7 @@ msgstr ""
 msgid "LEXO Pages Order"
 msgstr ""
 
-#: ../../../../../../../Documents/GitHub/lexo-pages-order/src/Core/Plugin/Order.php:66
+#: ../../../../../../../Documents/GitHub/lexo-pages-order/src/Core/Plugin/Order.php:64
 msgid "No subpages found for this page."
 msgstr ""
 
@@ -66,12 +70,30 @@ msgstr ""
 msgid "Security check failed."
 msgstr ""
 
-#: ../../../../../../../Documents/GitHub/lexo-pages-order/src/Core/Plugin/Order.php:43
-msgid "Subpage settings are disabled for this page."
+#: ../../../../../../../Documents/GitHub/lexo-pages-order/src/Core/Plugin/Order.php:22
+msgid "Subpage Settings"
+msgstr ""
+
+#: ../../../../../../../Documents/GitHub/lexo-pages-order/src/Core/Plugin/Order.php:45
+msgid ""
+"Subpage settings are disabled for this page because its subpages are the "
+"part of the main menu."
 msgstr ""
 
 #. Description of the plugin
 msgid "Subpages menu order."
+msgstr ""
+
+#: ../../../../../../../Documents/GitHub/lexo-pages-order/src/Core/Plugin/Order.php:86
+#: ../../../../../../../Documents/GitHub/lexo-pages-order/src/Core/Plugin/Order.php:120
+#, php-format
+msgid ""
+"This page and all it's subpages are excluded from the main menu because its "
+"parent page %s is excluded."
+msgstr ""
+
+#: ../../../../../../../Documents/GitHub/lexo-pages-order/src/Core/Plugin/Order.php:83
+msgid "This page and all it's subpages are excluded from the main menu."
 msgstr ""
 
 #: ../../../../../../../Documents/GitHub/lexo-pages-order/src/Core/Plugin/PluginService.php:75
