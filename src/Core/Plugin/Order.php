@@ -95,7 +95,9 @@ class Order
                             class="po-sortable-url"
                             href="<?php echo get_edit_post_link($subpage->ID); ?>"
                             target="_blank"
-                        >&rightarrow;</span></a>
+                        >
+                            <span class="dashicons dashicons-arrow-right-alt"></span>
+                        </a>
                     </div>
                 </li>
             <?php } ?>
