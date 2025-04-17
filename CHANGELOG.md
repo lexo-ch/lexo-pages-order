@@ -1,3 +1,10 @@
+## [1.0.9](https://github.com/lexo-ch/lexo-pages-order/compare/v1.0.8...v1.0.9) (2025-04-17)
+
+
+### Bug Fixes
+
+* **style:** Fix arrow icon ([837ae28](https://github.com/lexo-ch/lexo-pages-order/commit/837ae2800a33bee9d73b2b8fa4164d0fa7beb5e0))
+
 ## [1.0.8](https://github.com/lexo-ch/lexo-pages-order/compare/v1.0.7...v1.0.8) (2025-04-17)
 
 
