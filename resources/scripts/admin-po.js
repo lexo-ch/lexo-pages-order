@@ -14,7 +14,7 @@ document.addEventListener('DOMContentLoaded', function () {
   const initialItems = Array.from(sortableList.querySelectorAll('li'));
   const initialOrder = initialItems.map(item => item.dataset.id).join(',');
 
-  $(sortableList).sortable({
+  jQuery(sortableList).sortable({
     axis: 'y',
     opacity: 0.7,
     update: function (event, ui) {
