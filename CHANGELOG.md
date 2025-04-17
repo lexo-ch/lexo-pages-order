@@ -1,3 +1,10 @@
+## [1.0.8](https://github.com/lexo-ch/lexo-pages-order/compare/v1.0.7...v1.0.8) (2025-04-17)
+
+
+### Bug Fixes
+
+* **core:** Fix "$ is not a function" error ([627e4e7](https://github.com/lexo-ch/lexo-pages-order/commit/627e4e7e3daa3573dcf322ca80726ec2c11da745))
+
 ## [1.0.7](https://github.com/lexo-ch/lexo-pages-order/compare/v1.0.6...v1.0.7) (2025-04-16)
 
 
