@@ -327,12 +327,12 @@ class Order
             if (self::isAnyParentExcluded($post) !== false || self::isPageExcluded($post)) {
                 $excluded_message = apply_filters(
                     DOMAIN . '/message/column_excluded',
-                    '<span class="excluded-page true"></span>'
+                    '<span class="dashicons dashicons-no-alt excluded-page true"></span>'
                 );
             } else {
                 $excluded_message = apply_filters(
                     DOMAIN . '/message/column_not_excluded',
-                    '<span class="excluded-page false"></span>'
+                    '<span class="dashicons dashicons-yes excluded-page false"></span>'
                 );
             }
 

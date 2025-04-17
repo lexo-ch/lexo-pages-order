@@ -75,21 +75,13 @@ body:is(.post-type-page) {
 }
 
 .excluded-page {
-  font-size: 20px;
+  font-size: 28px;
 
   &.true {
     color: red;
-
-    &:before {
-      content: '\2716';
-    }
   }
 
   &.false {
     color: green;
-
-    &:before {
-      content: '\2714';
-    }
   }
 }
