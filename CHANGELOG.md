@@ -1,3 +1,10 @@
+## [1.0.11](https://github.com/lexo-ch/lexo-pages-order/compare/v1.0.10...v1.0.11) (2025-04-22)
+
+
+### Bug Fixes
+
+* **core:** Update translations ([d84c78c](https://github.com/lexo-ch/lexo-pages-order/commit/d84c78c18743d12021233f8f43c269972c216304))
+
 ## [1.0.10](https://github.com/lexo-ch/lexo-pages-order/compare/v1.0.9...v1.0.10) (2025-04-17)
 
 
