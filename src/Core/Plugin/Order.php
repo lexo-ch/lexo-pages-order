@@ -311,7 +311,7 @@ class Order
     public static function addExcludedColumn(array $columns): array
     {
         $customColumn = [
-            'excluded_pages_column' => __('Excluded from main menu', 'po')
+            'excluded_pages_column' => __('Listed in the menu', 'po')
         ];
 
         $columns = array_merge($columns, $customColumn);

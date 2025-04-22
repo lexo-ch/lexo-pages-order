@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: LEXO Pages Order\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-04-11 12:36+0000\n"
-"PO-Revision-Date: 2025-04-16 08:39+0000\n"
+"PO-Revision-Date: 2025-04-22 09:13+0000\n"
 "Last-Translator: \n"
 "Language-Team: German\n"
 "Language: de_DE\n"
@@ -15,7 +15,7 @@ msgstr ""
 "X-Loco-Version: 2.7.2; wp-6.7.2\n"
 "X-Domain: po"
 
-#: ../../../../../../../Documents/GitHub/lexo-pages-order/src/Core/Plugin/Order.php:104
+#: ../../../../../../../Documents/GitHub/lexo-pages-order/src/Core/Plugin/Order.php:106
 msgid ""
 "Change the order of the subpages by clicking and dragging the respective "
 "page to the desired location."
@@ -23,14 +23,10 @@ msgstr ""
 "Ändern Sie die Reihenfolge der Unterseiten durch klicken + ziehen der "
 "jeweiligen Seite an den gewünschten Ort."
 
-#: ../../../../../../../Documents/GitHub/lexo-pages-order/src/Core/Plugin/Order.php:134
+#: ../../../../../../../Documents/GitHub/lexo-pages-order/src/Core/Plugin/Order.php:136
 msgid "Exclude page from menu<br><small>(and all it's subpages)</small>"
 msgstr ""
 "Seite vom Menü ausschliessen<br><small>(und alle ihre Unterseiten)</small>"
-
-#: ../../../../../../../Documents/GitHub/lexo-pages-order/src/Core/Plugin/Order.php:312
-msgid "Excluded from main menu"
-msgstr "Vom Hauptmenu ausgeschlossen"
 
 #: ../../../../../../../Documents/GitHub/lexo-pages-order/src/Core/Plugin/Order.php:49
 #| msgid "here."
@@ -65,6 +61,10 @@ msgstr "LEXO GmbH"
 msgid "LEXO Pages Order"
 msgstr "LEXO Seitenmanagement"
 
+#: ../../../../../../../Documents/GitHub/lexo-pages-order/src/Core/Plugin/Order.php:314
+msgid "Listed in the menu"
+msgstr "Im Menü aufgeführt"
+
 #: ../../../../../../../Documents/GitHub/lexo-pages-order/src/Core/Plugin/Order.php:64
 msgid "No subpages found for this page."
 msgstr "Keine Unterseiten für diese Seite gefunden."
@@ -98,7 +98,7 @@ msgid "Subpages menu order."
 msgstr "Reihenfolge der Unterseiten im Menü."
 
 #: ../../../../../../../Documents/GitHub/lexo-pages-order/src/Core/Plugin/Order.php:86
-#: ../../../../../../../Documents/GitHub/lexo-pages-order/src/Core/Plugin/Order.php:120
+#: ../../../../../../../Documents/GitHub/lexo-pages-order/src/Core/Plugin/Order.php:122
 #, php-format
 #| msgid ""
 #| "This page and all it's subpages are excluded from the main menu because "
