@@ -33,15 +33,20 @@ Release tags are created with Semantic versioning in mind. Commit messages were 
 `apply_filters('po/enqueue/admin-po.css', $args);`
 - $args (bool) Printing of the file `admin-po.css` (stylesheet id is `po/admin-po.css-css`).
 
-#### - `po//message/column_excluded`
+#### - `po//message/column-excluded`
 *Parameters*
-`apply_filters('po//message/column_excluded', $args);`
+`apply_filters('po//message/column-excluded', $args);`
 - $args (string) Content of the message in the pages list on dashboard when page is excluded.
 
-#### - `po//message/column_not_excluded`
+#### - `po//message/column-not-excluded`
 *Parameters*
-`apply_filters('po//message/column_not_excluded', $args);`
+`apply_filters('po//message/column-not-excluded', $args);`
 - $args (string) Content of the message in the pages list on dashboard when page is not excluded.
+
+#### - `po/enable-on-top-level-pages`
+*Parameters*
+`apply_filters('po/enable-on-top-level-pages', $args);`
+- $args (bool) This filter controls whether drag&drop of subpages is enabled on top-level pages. Default is `false`.
 
 ---
 ## Actions
