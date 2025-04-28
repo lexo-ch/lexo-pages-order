@@ -29,7 +29,13 @@ class Order
 
     public static function renderMetaboxContent(WP_Post $post): void
     {
-        if (self::isHomepage($post)) {
+        if (
+            !apply_filters(
+                DOMAIN . '/enable-on-top-level-pages',
+                false
+            )
+            && $post->post_parent == 0
+        ) {
             echo self::getHomepageMessage();
             return;
         }
@@ -176,36 +182,6 @@ class Order
         return get_post_meta($post->ID, 'custom_exclude', true) || $post->post_status != 'publish';
     }
 
-    public static function isHomepage(WP_Post $post): bool
-    {
-        if (self::isMlAdminPageRegistered("lexo-ml-core.php") && empty($post->post_parent)) {
-            return true;
-        }
-
-        return get_option('page_on_front') === $post->ID;
-    }
-
-    public static function isMlAdminPageRegistered(string $slug): bool
-    {
-        global $menu, $submenu;
-
-        foreach ($menu as $item) {
-            if (isset($item[2]) && $item[2] === $slug) {
-                return true;
-            }
-        }
-
-        foreach ($submenu as $items) {
-            foreach ($items as $item) {
-                if (isset($item[2]) && $item[2] === $slug) {
-                    return true;
-                }
-            }
-        }
-
-        return false;
-    }
-
     public static function isAnyParentExcluded(WP_Post $post)
     {
         $ancestors = get_post_ancestors($post->ID);
@@ -326,12 +302,12 @@ class Order
 
             if (self::isAnyParentExcluded($post) !== false || self::isPageExcluded($post)) {
                 $excluded_message = apply_filters(
-                    DOMAIN . '/message/column_excluded',
+                    DOMAIN . '/message/column-excluded',
                     '<span class="dashicons dashicons-no-alt excluded-page true"></span>'
                 );
             } else {
                 $excluded_message = apply_filters(
-                    DOMAIN . '/message/column_not_excluded',
+                    DOMAIN . '/message/column-not-excluded',
                     '<span class="dashicons dashicons-yes excluded-page false"></span>'
                 );
             }
