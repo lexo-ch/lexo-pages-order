@@ -1,3 +1,11 @@
+## [1.0.12](https://github.com/lexo-ch/lexo-pages-order/compare/v1.0.11...v1.0.12) (2025-04-28)
+
+
+### Bug Fixes
+
+* **core:** Fix top level pages for non-admin users ([5a44cc7](https://github.com/lexo-ch/lexo-pages-order/commit/5a44cc75010f2c1a2cc3c679e877e8f8d5dc46be))
+* **style:** Add gap between title and icon ([1b1ed74](https://github.com/lexo-ch/lexo-pages-order/commit/1b1ed74ae92edebd91d9a2c585b7a26e93d61f48))
+
 ## [1.0.11](https://github.com/lexo-ch/lexo-pages-order/compare/v1.0.10...v1.0.11) (2025-04-22)
 
 

@@ -4,7 +4,7 @@
  * Plugin Name:       LEXO Pages Order
  * Plugin URI:        https://github.com/lexo-ch/lexo-pages-order/
  * Description:       Subpages menu order.
- * Version:           1.0.11
+ * Version:           1.0.12
  * Requires at least: 4.7
  * Requires PHP:      7.4.1
  * Author:            LEXO GmbH
